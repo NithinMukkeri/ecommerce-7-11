@@ -22,11 +22,12 @@ const Header = () => {
             className="nav-mobile-btn"
             
           >
-            <img
+            <Link to='/Login'><img
               src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-log-out-img.png"
               alt="nav logout"
               className="nav-bar-img"
-            />
+            /></Link>
+            
           </button>
         </div>
 
